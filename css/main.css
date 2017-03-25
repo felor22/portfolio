@@ -1,0 +1,264 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #2a2a2a;
+	background-color: #fbfbeb;
+}
+
+#about, #work {
+	height: 700px;
+}
+
+#skills {
+	height: 600px;
+}
+
+#contact {
+	height: 575px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+.fifth-width {
+	width: 240px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+/*nav {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fbfbeb;
+	border-bottom: #cc446a;	
+	border: 3 px;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: 35px;
+	margin-left: 100px;
+	text-align: left;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 200;
+	color: #2a2a2a;
+	margin-right: 150px;
+}
+
+header img {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+nav ul li a.active {
+	font-weight: 400;
+}*/
+
+nav {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fbfbeb;
+	border-bottom: 5px solid #cc446a;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	margin-right: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 200;
+	color: #2a2a2a;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+	background: #a7bd7c;
+}
+
+#about h1 {
+	font-family: 'Qwigley', cursive;
+	color: #fbfbeb;
+	font-size: 65px;
+	letter-spacing: 2px;
+	padding: 150px 0px 0px 50px;
+	font-weight: lighter;
+	line-height: 10px;
+}
+
+#about p {
+	font-weight: 200;
+	font-size: 23px;
+	color: #2a2a2a;
+	line-height: 36px;
+	padding: 0 50px;
+}
+
+#about img {
+	display: block;
+	margin: auto;
+	padding-top: 200px;
+}
+
+/***** SKILLS *****/
+
+#skills {
+	background: #fbfbeb;
+}
+
+#skills p {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#skills img {
+	display: block;
+	margin: auto;
+	padding-top: 150px;
+}
+
+/***** WORK *****/
+
+#work {
+	background: #a7bd7c;
+}
+
+#work h3 {
+	font-weight: 300;
+	font-size: 24px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+#work p {
+	font-weight: 200;
+	font-size: 16px;
+	text-align: center;
+	padding: 0 70px;
+	line-height: 24px;
+}
+
+#work img {
+	display: block;
+	margin: auto;
+	padding-top: 150px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background: #fbfbeb;
+}
+
+#contact h2 {
+	font-weight: lighter;
+	font-size: 40px;
+	line-height: 36px;
+	padding: 100px 0 0 50px;
+}
+
+#email {
+	margin: 0 10px 0 50px;
+}
+
+#contact a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 300;
+	color: #2a2a2a;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+	margin-top: 200px;
+	padding: 0 10px;
+}
+
+form {
+	margin-top: 125px;
+	margin-left: 50px;
+}
+
+input[type=text], textarea {
+	width: 450px;
+	height: 25px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	background-color: #cc446a;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	border: none;
+	padding: 10px 12px;
+	margin-left: 350px;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+	background: #a7bd7c;
+	height: 35px;
+	top: 0;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 35px;
+}
